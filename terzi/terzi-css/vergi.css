@@ -1,0 +1,288 @@
+* {
+    margin: 0px;
+    margin-top: 0px;
+    font-family: 'Urbanist', sans-serif;
+    ;
+}
+
+body {
+    display: flex;
+}
+
+.sidebar {
+    height: 600px;
+    width: 18%;
+    float: left;
+
+    border-right: solid 1px #bbb8b8;
+
+}
+
+.sidebar-logo {
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+
+
+}
+
+.sidebar-logo img {
+    height: 100%;
+    width: 80%;
+
+
+
+}
+
+.left-menu-item {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    width: 82%;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    float: left;
+    display: flex;
+    border-bottom: solid 1px #bbb8b8;
+
+}
+
+.hosgeldin {
+    height: 100%;
+    width: 80%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 15px
+}
+
+header .left-menu-item {
+    font-size: 16px;
+}
+
+.left-menu-item i {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+header .left-menu-item span {
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.liste {
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    line-height: 50px;
+
+
+}
+
+.liste li {
+    list-style: none;
+    padding-top: 10px;
+
+
+}
+
+.liste img {
+    float: left;
+    padding: 0 0 0 0;
+    width: 15%;
+    height: 15%;
+
+}
+
+.liste a {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 18px;
+
+}
+
+.liste li:hover {
+    color: rgb(24, 28, 29);
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.liste li::after {
+    content: "";
+    display: block;
+    height: 1px;/* Çizginin kalınlığı */
+    width: 0;/* Başlangıçta çizgi görünmez */
+    background-color: #000;/* Çizgi rengi */
+    transition: width 0.3s ease;/* Geçiş efekti */
+}
+
+.liste li:hover::after {
+    width: 100%;/* Fare öğenin üzerine gelince çizgi görünür hale gelsin */
+}
+
+.liste i {
+    font-size: 25px;
+}
+
+article .yazi h2 {
+    height: 40px;
+    width: 95%;
+    margin-top: 80px;
+    padding-left: 15px;
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row {
+    background-color: #bbb8b8;
+    border: 1px solid #ddd;
+    padding: 10px;
+    height: 90px;
+    border-radius: 10px;
+}
+
+h4 {
+    color: #3b3b3b;
+}
+
+.navbar {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 20%;
+    border: solid 1px #bbb8b8;
+}
+
+.navbar li {
+    display: flex;
+    float: left;
+    margin-left: 25px;
+  
+    
+
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-left: 5px;
+    font-size: 15px;
+    
+}
+.navbar-a{
+    color:#000;
+    font-weight: 600;
+    
+}
+
+
+.adres-bilgileri {
+    width: 80%;
+    height: 700px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adres-bilgi-yazi {
+    margin-top: 30px;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
+.form {
+    height: 300px;
+    width: 400px;
+    margin-top: 0px;
+    
+}
+
+input {
+    width: 385px;
+    height: 45px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid #d4cfcf;
+    display: block;
+
+
+}
+
+select {
+    width: 400px;
+    height: 45px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid #d4cfcf;
+    color: #75758b;
+
+}
+#adres{
+    width: 385px;
+    height: 65px;
+    margin-top: 15px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 1px solid #d4cfcf;
+    color: #75758b;
+}
+
+.kayit-ol {
+    font-size: 16px;
+    font-weight: bold;
+    color: #484848;
+    background-color: #fbe5df;
+    width: 400px;
+
+
+}
+
+.kayit-ol:hover {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+    background-color: #f1c9bd;
+
+}
+.kayitli-bilgiler{
+    width: 45%;
+    height: 200px;
+    margin-top: 20px;
+    border: solid 1px #d4cfcf;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="terzi-css/terzi-kayit.css">
+    <title>Satıcı Ol</title>
+</head>
+
+<body>
+    <!-- <video autoplay muted loop id="video-background">
+        <source src="img/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> -->
+    <section>
+        <div class="kayit">
+            <form action="terzi-kayit-kontrol.php" class="form" method="post">
+                <div class="giris-kayit">
+                    <div class="giris-btn"> <a href="terzi-giris.html"> <span>Terzi Paneli</span></a></div>
+                    <div class="kayit-btn"> <a href="terzi-kayit.html"><span>Yeni Başvuru</span></a></div>
+                </div>
+                <input type="text" name="ad" required placeholder="Ad" required>
+                <input type="text" name="soyad" required placeholder="Soyad" required>
+                <input type="email" name="mail" required placeholder="E-posta" required>
+                <input type="password" name="sifre" required placeholder="Şifre" required>
+                <input type="tel" name="telno" required placeholder="Telefon Numarası" required>
+                <input type="number" name="tc" required placeholder="TC No" required maxlength="11" title="Tam olarak 11 karakter girmelisiniz">
+                <input type="date" name="d_tarihi" required placeholder="Doğum Tarihi" required>               
+                <input type="submit" name="submit" value="Devam Et" class="kayit-ol">
+                
+
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

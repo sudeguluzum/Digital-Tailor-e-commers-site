@@ -1,0 +1,230 @@
+*{
+    margin: 0px;
+    margin-top: 0px;
+    font-family: 'Urbanist', sans-serif;;
+}
+body{
+    display: flex;
+}
+.sidebar{
+    height: 600px;
+    width: 18%;
+    float: left;
+   
+    border-right: solid 1px #bbb8b8;
+  
+}
+.sidebar-logo{
+    height: 70px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+ 
+   
+}
+.sidebar-logo img{
+    height: 100%;
+    width: 80%;
+  
+    
+   
+}
+.left-menu-item{
+    display: flex;
+    align-items: center;
+}
+section{
+    width: 82%;
+    height: auto;
+}
+header{
+    width: 100%;
+    height: 70px;
+    float: left;
+    display: flex;
+    border-bottom:solid 1px #bbb8b8 ;
+   
+}
+.hosgeldin{
+    height:100%;
+    width: 80%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left:15px
+}
+header .left-menu-item{
+    font-size: 16px;
+}
+.left-menu-item i{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+header .left-menu-item span{
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 5px;
+}
+
+.liste{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    line-height: 50px;
+   
+    
+}
+.liste li{
+    list-style: none;
+    padding-top: 10px;
+
+  
+}
+
+.liste img{
+    float: left;
+    padding:0 0 0 0;
+    width:15%;
+    height:15%;
+    
+}
+
+.liste a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding-left: 5px;
+   font-size: 18px;
+    
+}
+.liste li:hover{
+    color:rgb(24, 28, 29);
+    font-size:19px ;
+    font-weight: 600;
+}
+.liste li::after {
+    content: "";
+    display: block;
+    height: 1px; /* Çizginin kalınlığı */
+    width: 0; /* Başlangıçta çizgi görünmez */
+    background-color: #000; /* Çizgi rengi */
+    transition: width 0.3s ease; /* Geçiş efekti */
+}
+.liste li:hover::after {
+    width: 100%; /* Fare öğenin üzerine gelince çizgi görünür hale gelsin */
+}
+.liste i{
+    font-size: 25px;
+}
+article .bilgilendirme h2{
+   text-align: center;
+    margin-top:70px;
+    margin-bottom:35px;
+   
+   
+}
+.ust{
+  
+    height: 300px;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+ 
+}
+.progressUL{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: center; /* Y ekseninde ortala */
+    
+   
+}
+.progress{
+    list-style:none;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    
+}
+.progress p{
+    font-weight: 500;
+    color:#bbb8b8;
+}
+.progress i{
+    font-size: 45px;
+    margin-bottom:55px;
+    margin: 0 70px;
+    
+}
+.asama .text{
+    display: flex;
+    justify-content: center;
+}
+
+.asama .uil{
+    display: none;
+    margin-left: -3px;
+    margin-top: -5px;
+   font-size: 35px;
+
+}
+.asama{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #CCCCCC;
+    display: grid;
+    place-items: center;
+    color:#fff;
+    text-align: center;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+.asama::after{
+    content:" ";
+    position: absolute;
+    width: 155px;
+    height: 5px;
+    background-color: #CCCCCC;
+    right: 30px;
+
+}
+.bir::after{
+    width: 0;
+    height: 0;
+}
+.progressUL .progress .active{
+    background-color: rgb(6, 206, 6);
+    display: grid;
+    place-items: center;
+}
+.progress .active::after{
+    background-color:rgb(6, 206, 6);
+}
+.progress .active p{
+    display: none;
+}
+.progress .active .uil{
+    display: flex;
+}
+
+.alt-article{
+    margin-top:0px;
+    height: 300px;
+    width: 100%;
+    float: left;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
+
