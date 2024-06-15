@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="giris.css">
+    <title>Giriş Yap</title>
+</head>
+<body>
+    <video autoplay muted loop id="video-background">
+        <source src="img/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video> 
+    <section>
+    <div class="giris">
+        <form action="giris_kontrol.php" class="form" method="post">
+            <div class="giris-kayit">
+                <div class="giris-btn"> <a href="giris.html"> <span>Giriş Yap</span></a></div>
+                <div class="kayit-btn"> <a href="kayit.html"><span>Kayıt Ol</span></a></div>
+            </div>
+            <input type="email" name="mail" required placeholder="E-posta">
+            <input type="password" name="sifre" required placeholder="Şifre">
+            <input type="submit" name="submit" value="Giriş Yap" class="girisYap">
+
+            
+        </form>
+    </div>
+    </section>
+</body>
+</html>
